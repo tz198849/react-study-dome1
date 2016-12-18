@@ -1,0 +1,14 @@
+{
+  "name": "react-study-dome1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JSXTransformer.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files \"*.*\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.2"
+  }
+}

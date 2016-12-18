@@ -1,0 +1,28 @@
+.clearfix{zoom:1;}
+.clearfix:after{
+    content:".";
+    display:block;
+    visibility:hidden;
+    height:0;
+    clear:both;
+}
+html,body,ul,li{margin: 0;padding: 0;}
+ul,li{list-style-type: none}
+.ren ul{
+    display: block;
+    float:left;
+}
+.ren li{
+    float:left;
+    width: 100px;
+    text-align:center;
+    border:1px solid #0000AA;
+    line-height:22px;
+}
+.renTitbg{
+    background: #3f3f3f;
+    color: #FFFFFF;
+}
+.active{
+    background: #00DD00;
+}
